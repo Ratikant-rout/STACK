@@ -1,7 +1,8 @@
 import java.util.*;
 
 public class studyopedia{
-    public static void pushAtBottom(Stack<Integer> s,int data){     if(s.isEmpty()){
+    public static void pushAtBottom(Stack<Integer> s,int data){     
+      if(s.isEmpty()){
          s.push(data);
           return;
    }  
